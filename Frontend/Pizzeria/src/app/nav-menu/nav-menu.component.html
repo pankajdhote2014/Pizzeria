@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="'/Homepage'"> Home </a>
+      <a mat-button [routerLink]="'/Pizza'"> Pizza </a>
+      <a mat-button [routerLink]="'/NonPizza'"> Non-Pizza </a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
